@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: rgba(201, 64, 64, 0.85);
+  overflow: hidden;
+}
+.h2 {
+  color: #adadad;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.h2 button {
+  color: #adadad;
+  font-size: 15px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.center {
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background: #f0efefd0;
+  text-align: center;
+  padding-top: 0px;
+  color: #adadad;
+}
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .text_field {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  padding: 2px;
+  text-align: center;
+}
+.username,
+.password {
+  color: #adadad;
+}
+.username input {
+  padding-top: 13px;
+  padding-right: 160px;
+  padding-bottom: 13px;
+  padding-left: 15px;
+}
+.password input {
+  padding-top: 13px;
+  padding-right: 160px;
+  padding-bottom: 13px;
+  padding-left: 15px;
+}
+.login button {
+  padding: 10px 30px;
+  background-color: rgb(139, 248, 212);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.rememberme label {
+  padding-top: 0px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+  padding-left: 2px;
+  margin: auto;
+}
+.rememberme {
+  margin-top: 20px;
+  color: #adadad;
+}
+.rememberme input {
+  cursor: pointer;
+}
