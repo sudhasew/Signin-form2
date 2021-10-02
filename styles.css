@@ -4,6 +4,7 @@ body {
   height: 100vh;
   background: rgba(201, 64, 64, 0.85);
   overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .h2 {
   color: #adadad;
@@ -16,6 +17,7 @@ body {
   border: none;
   background: none;
   cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .center {
   height: 60vh;
